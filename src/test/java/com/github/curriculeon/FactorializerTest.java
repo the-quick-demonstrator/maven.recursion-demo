@@ -7,7 +7,7 @@ public class FactorializerTest {
     @Test
     public void testFactorial1() {
         // given
-        Factorializer factorializer = new Factorializer();
+        Recurser factorializer = new Recurser();
         Integer input = 0;
         Integer expected = 1;
 
@@ -21,7 +21,7 @@ public class FactorializerTest {
     @Test
     public void testFactorial2() {
         // given
-        Factorializer factorializer = new Factorializer();
+        Recurser factorializer = new Recurser();
         Integer input = 1;
         Integer expected = 1;
 
@@ -35,7 +35,7 @@ public class FactorializerTest {
     @Test
     public void testFactorial3() {
         // given
-        Factorializer factorializer = new Factorializer();
+        Recurser factorializer = new Recurser();
         Integer input = 2;
         Integer expected = 2;
 
@@ -49,7 +49,7 @@ public class FactorializerTest {
     @Test
     public void testFactorial4() {
         // given
-        Factorializer factorializer = new Factorializer();
+        Recurser factorializer = new Recurser();
         Integer input = 3;
         Integer expected = 3;
 
@@ -63,7 +63,7 @@ public class FactorializerTest {
     @Test
     public void testFactorial5() {
         // given
-        Factorializer factorializer = new Factorializer();
+        Recurser factorializer = new Recurser();
         Integer input = 4;
         Integer expected = 5;
 
@@ -77,7 +77,7 @@ public class FactorializerTest {
     @Test
     public void testFactorial6() {
         // given
-        Factorializer factorializer = new Factorializer();
+        Recurser factorializer = new Recurser();
         Integer input = 5;
         Integer expected = 8;
 
@@ -91,7 +91,7 @@ public class FactorializerTest {
     @Test
     public void testFactorial7() {
         // given
-        Factorializer factorializer = new Factorializer();
+        Recurser factorializer = new Recurser();
         Integer input = 6;
         Integer expected = 13;
 
@@ -105,7 +105,7 @@ public class FactorializerTest {
     @Test
     public void testFactorial8() {
         // given
-        Factorializer factorializer = new Factorializer();
+        Recurser factorializer = new Recurser();
         Integer input = 7;
         Integer expected = 21;
 
