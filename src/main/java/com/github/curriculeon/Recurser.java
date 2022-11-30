@@ -1,5 +1,14 @@
 package com.github.curriculeon;
 
+// given the following sequence
+// 0 -> 1
+// 1 -> 1
+// 2 -> 2
+// 3 -> 3
+// 4 -> 5
+// 5 -> 8
+// define a function f(x) which returns the respective output
+
 public class Recurser {
     // taking previous expected integer and
     // taking previous previous expected integer and
